@@ -1,0 +1,23 @@
+{
+  "name": "soccer-calendar",
+  "version": "1.0.0",
+  "description": "iCal files for the 2024 MLS season",
+  "main": "app.js",
+  "dependencies": {
+    "csv": "^5.1.1",
+    "csv-parser": "^2.2.0",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "ics": "^3.7.2",
+    "ics-service": "^1.4.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
