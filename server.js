@@ -9,16 +9,13 @@ const clubsData = require('./data/clubs.json');
 app.use(express.static("public"));
 
 app.get("/", function (request, response) {
-  let abbreviations = [];
-  clubsData.forEach(club => {
-    abbreviations.push(club.abbreviation);
-  });
-  response.send(abbreviations);
+  response.sendFile(__dirname + "/views/index.html");
 });
 
 clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
-    response.sendFile(__dirname + `/public/${club.abbreviation}.ics`);
+    const url = __dirname + `/public/${club.abbreviation}.ics`;
+    response.sendFile(url);
   });
 });
 
