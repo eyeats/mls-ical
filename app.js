@@ -7,7 +7,6 @@ const port = 3003;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
-  res.sendStatus(200);
 });
 
 app.get("/cron", (req, res) => {
