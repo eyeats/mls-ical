@@ -124,9 +124,8 @@ const linksContainer = document.getElementById('links');
 clubsData.forEach(club => {
   const listItem = document.createElement('li');
   const link = document.createElement('a');
-  link.href = `//${window.location.host}/public/${club.abbreviation}.ics`;
+  link.href = `webcal://${window.location.host}/${club.abbreviation}.ics`;
   link.innerText = club.club;
   listItem.appendChild(link);
   linksContainer.appendChild(listItem);
-  console.log(listItem);
 });
