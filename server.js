@@ -14,12 +14,12 @@ app.get("/", function (request, response) {
 
 clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
-    const url = __dirname + `/public/${club.abbreviation}.ics`;
+    const url = `webcal://${request.headers.host}/public/${club.abbreviation}.ics`;
     response.sendFile(url);
   });
 });
 
 // listen for requests :)
-const listener = app.listen(3110, function() {
+const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
