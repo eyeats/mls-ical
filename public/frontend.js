@@ -112,7 +112,7 @@ const clubsData = [
         "abbreviation": "TOR"
     },
     {
-        "club": "Vancover",
+        "club": "Vancouver",
         "abbreviation": "VAN"
     }
 ];
