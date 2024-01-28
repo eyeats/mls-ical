@@ -15,6 +15,7 @@ fetch('https://sportapi.mlssoccer.com/api/matches?culture=en-us&dateFrom=2024-01
           const matchData = new Object;
           const matchDate = new Date(match.matchDate);
 
+          matchData.calName = club.fullname;
           matchData.title = match.home.shortName + ' vs ' + match.away.shortName;
           matchData.location = match.venue.name + ', ' + match.venue.city;
           matchData.description = match.competition.name + '\nWatch on: ' + (match.broadcasters && match.broadcasters.length > 0 ? match.broadcasters[0].broadcasterName : null);

@@ -1,118 +1,147 @@
 [
   {
     "club": "Atlanta",
-    "abbreviation": "ATL"
+    "abbreviation": "ATL",
+    "fullname": "Atlanta United"
   },
   {
     "club": "Austin",
-    "abbreviation": "ATX"
+    "abbreviation": "ATX",
+    "fullname": "Austin FC"
   },
   {
     "club": "Charlotte",
-    "abbreviation": "CLT"
+    "abbreviation": "CLT",
+    "fullname": "Charlotte FC"
   },
   {
     "club": "Chicago",
-    "abbreviation": "CHI"
+    "abbreviation": "CHI",
+    "fullname": "Chicago Fire FC"
   },
   {
     "club": "Cincinnati",
-    "abbreviation": "CIN"
+    "abbreviation": "CIN",
+    "fullname": "FC Cincinnati"
   },
   {
     "club": "Colorado",
-    "abbreviation": "COL"
+    "abbreviation": "COL",
+    "fullname": "Colorado Rapids"
   },
   {
     "club": "Columbus",
-    "abbreviation": "CLB"
+    "abbreviation": "CLB",
+    "fullname": "Columbus Crew"
   },
   {
     "club": "Dallas",
-    "abbreviation": "DAL"
+    "abbreviation": "DAL",
+    "fullname": "FC Dallas"
   },
   {
     "club": "DC",
-    "abbreviation": "DC"
+    "abbreviation": "DC",
+    "fullname": "D.C. United"
   },
   {
     "club": "Houston",
-    "abbreviation": "HOU"
+    "abbreviation": "HOU",
+    "fullname": "Houston Dynamo"
   },
   {
     "club": "Kansas City",
-    "abbreviation": "SKC"
+    "abbreviation": "SKC",
+    "fullname": "Sporting Kansas City"
   },
   {
     "club": "LA Galaxy",
-    "abbreviation": "LA"
+    "abbreviation": "LA",
+    "fullname": "LA Galaxy"
   },
   {
     "club": "LAFC",
-    "abbreviation": "LAFC"
+    "abbreviation": "LAFC",
+    "fullname": "Los Angeles FC"
   },
   {
     "club": "Miami",
-    "abbreviation": "MIA"
+    "abbreviation": "MIA",
+    "fullname": "Inter Miami CF"
   },
   {
     "club": "Minnesota",
-    "abbreviation": "MIN"
+    "abbreviation": "MIN",
+    "fullname": "Minnesota United FC"
   },
   {
     "club": "Montreal",
-    "abbreviation": "MTL"
+    "abbreviation": "MTL",
+    "fullname": "CF Montréal"
   },
   {
     "club": "Nashville",
-    "abbreviation": "NSH"
+    "abbreviation": "NSH",
+    "fullname": "Nashville SC"
   },
   {
     "club": "New England",
-    "abbreviation": "NE"
+    "abbreviation": "NE",
+    "fullname": "New England Revolution"
   },
   {
     "club": "NYCFC",
-    "abbreviation": "NYC"
+    "abbreviation": "NYC",
+    "fullname": "New York City FC"
   },
   {
     "club": "NY Red Bulls",
-    "abbreviation": "RBNY"
+    "abbreviation": "RBNY",
+    "fullname": "New York Red Bulls"
   },
   {
     "club": "Orlando",
-    "abbreviation": "ORL"
+    "abbreviation": "ORL",
+    "fullname": "Orlando City SC"
   },
   {
     "club": "Philadelphia",
-    "abbreviation": "PHI"
+    "abbreviation": "PHI",
+    "fullname": "Philadelphia Union"
   },
   {
     "club": "Portland",
-    "abbreviation": "POR"
+    "abbreviation": "POR",
+    "fullname": "Portland Timbers"
   },
   {
     "club": "Salt Lake",
-    "abbreviation": "RSL"
+    "abbreviation": "RSL",
+    "fullname": "Real Salt Lake"
   },
   {
     "club": "San Jose",
-    "abbreviation": "SJ"
+    "abbreviation": "SJ",
+    "fullname": "San Jose Earthquakes"
   },
   {
     "club": "Seattle",
-    "abbreviation": "SEA"
+    "abbreviation": "SEA",
+    "fullname": "Seattle Sounders FC"
   },
   {
     "club": "St. Louis",
-    "abbreviation": "STL"
+    "abbreviation": "STL",
+    "fullname": "St. Louis City SC"
   },
   {
     "club": "Toronto",
-    "abbreviation": "TOR"
+    "abbreviation": "TOR",
+    "fullname": "Toronto FC"
   },
   {
-    "club": "Vancover",
-    "abbreviation": "VAN"
+    "club": "Vancouver",
+    "abbreviation": "VAN",
+    "fullname": "Vancouver Whitecaps FC"
   }
 ]
