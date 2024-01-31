@@ -21,7 +21,7 @@ app.get("/cron", (request, response) => {
 clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
     const url = __dirname + `/public/${club.abbreviation}.ics`;
-    webcalurl = url.replace('webcal://', 'http://'),
+    const webcalurl = url.replace('webcal://', 'http://');
     response.sendFile(webcalurl);
     response.status(200);
   });
