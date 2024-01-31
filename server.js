@@ -5,12 +5,18 @@
 const express = require("express");
 const app = express();
 const clubsData = require('./data/clubs.json');
+const generateCals = require('./generateCals');
 
 app.use(express.static("public"));
 
 app.get("/", function (request, response) {
   response.sendFile(__dirname + "/views/index.html");
 });
+
+app.get("/cron", (request, response) => {
+  generateCals();
+  response.sendStatus(200)
+})
 
 clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
