@@ -39,7 +39,7 @@
     "club": "Columbus",
     "abbreviation": "CLB",
     "fullname": "Columbus Crew",
-    "shortname": "Crew"
+    "shortname": "Columbus Crew"
   },
   {
     "club": "Dallas",
@@ -56,7 +56,7 @@
   {
     "club": "Houston",
     "abbreviation": "HOU",
-    "fullname": "Houston Dynamo",
+    "fullname": "Houston Dynamo FC",
     "shortname": "Dynamo"
   },
   {
@@ -74,7 +74,7 @@
   {
     "club": "LAFC",
     "abbreviation": "LAFC",
-    "fullname": "Los Angeles FC",
+    "fullname": "Los Angeles Football Club",
     "shortname": "LAFC"
   },
   {
@@ -158,7 +158,7 @@
   {
     "club": "St. Louis",
     "abbreviation": "STL",
-    "fullname": "St. Louis City SC",
+    "fullname": "St. Louis CITY SC",
     "shortname": "St. Louis City"
   },
   {
