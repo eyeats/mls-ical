@@ -20,7 +20,7 @@ function generateCals() {
             matchData.calName = club.fullname;
             matchData.title = getClubName(match.home.fullName) + ' vs ' + getClubName(match.away.fullName);
             matchData.location = match.venue.name + ', ' + match.venue.city;
-            matchData.description = match.competition.name + '\nWatch on: ' + (match.broadcasters && match.broadcasters.length > 0 ? match.broadcasters[0].broadcasterName : null);
+            matchData.description = '🏆' + match.competition.name + '\n📺 Watch: ' + (match.broadcasters && match.broadcasters.length > 0 ? match.broadcasters[0].broadcasterName : null);
             matchData.start = [matchDate.getFullYear(), matchDate.getMonth() + 1, matchDate.getDate(), matchDate.getHours(), matchDate.getMinutes()];
             matchData.startInputType = 'local';
             matchData.duration = { hours: 2, minutes: 15 };
