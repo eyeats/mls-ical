@@ -15,8 +15,8 @@ app.get("/", function (request, response) {
 
 app.get("/cron", (request, response) => {
   generateCals();
-  response.sendStatus(200)
-})
+  response.sendStatus(200);
+});
 
 clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
