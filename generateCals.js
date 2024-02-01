@@ -2,6 +2,7 @@ const fs = require('fs');
 const ics = require('ics');
 const fetch = require('node-fetch');
 const clubsData = require('./data/clubs.json');
+const getClubName = require('./getClubName');
 
 function generateCals() {
   fetch('https://sportapi.mlssoccer.com/api/matches?culture=en-us&dateFrom=2024-01-01&dateTo=2024-12-31&excludeSecondaryTeams=true')
@@ -17,7 +18,7 @@ function generateCals() {
             const matchDate = new Date(match.matchDate);
 
             matchData.calName = club.fullname;
-            matchData.title = match.home.shortName + ' vs ' + match.away.shortName;
+            matchData.title = getClubName(match.home.fullName) + ' vs ' + getClubName(match.away.fullName);
             matchData.location = match.venue.name + ', ' + match.venue.city;
             matchData.description = match.competition.name + '\nWatch on: ' + (match.broadcasters && match.broadcasters.length > 0 ? match.broadcasters[0].broadcasterName : null);
             matchData.start = [matchDate.getFullYear(), matchDate.getMonth() + 1, matchDate.getDate(), matchDate.getHours(), matchDate.getMinutes()];
