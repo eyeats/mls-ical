@@ -5,7 +5,7 @@
 const express = require("express");
 const app = express();
 const clubsData = require('./data/clubs.json');
-const generateCals = require('./generateCals');
+const generateCals = require('./scripts/generateCals');
 
 app.use(express.static("public"));
 
@@ -22,6 +22,7 @@ clubsData.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
     const url = __dirname + `/public/${club.abbreviation}.ics`;
     const webcalurl = url.replace('webcal://', 'http://');
+    response.set('Content-Type', 'text/calendar');
     response.sendFile(webcalurl);
     response.status(200);
   });
