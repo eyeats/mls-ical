@@ -1,5 +1,11 @@
 const clubsData = [
 	{
+		"club": "MLS",
+		"abbreviation": "MLS",
+		"fullname": "All MLS Teams",
+		"shortname": "MLS"
+	},
+	{
 		"club": "Atlanta",
 		"abbreviation": "ATL",
 		"fullname": "Atlanta United FC",
@@ -172,12 +178,6 @@ const clubsData = [
 		"abbreviation": "VAN",
 		"fullname": "Vancouver Whitecaps FC",
 		"shortname": "Whitecaps"
-	},
-	{
-		"club": "MLS",
-		"abbreviation": "MLS",
-		"fullname": "All MLS Teams",
-		"shortname": "MLS"
 	}
 ];
 
