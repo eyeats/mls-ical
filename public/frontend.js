@@ -172,6 +172,12 @@ const clubsData = [
 		"abbreviation": "VAN",
 		"fullname": "Vancouver Whitecaps FC",
 		"shortname": "Whitecaps"
+	},
+	{
+		"club": "MLS",
+		"abbreviation": "MLS",
+		"fullname": "All MLS Teams",
+		"shortname": "MLS"
 	}
 ];
 

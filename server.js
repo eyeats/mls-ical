@@ -14,7 +14,8 @@ app.get("/", function (request, response) {
 });
 
 app.get("/cron", (request, response) => {
-  generateCals();
+  generateTeamCals();
+  generateMLSCal();
   response.sendStatus(200);
 });
 
@@ -26,6 +27,14 @@ clubsData.forEach(club => {
     response.sendFile(webcalurl);
     response.status(200);
   });
+});
+
+app.get(`/MLS`, function (request, response) {
+  const url = __dirname + `/public/MLS.ics`;
+  const webcalurl = url.replace('webcal://', 'http://');
+  response.set('Content-Type', 'text/calendar');
+  response.sendFile(webcalurl);
+  response.status(200);
 });
 
 // listen for requests :)
