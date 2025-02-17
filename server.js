@@ -10,12 +10,12 @@ const generateCals = require('./scripts/generateCals');
 app.use(express.static("public"));
 
 app.get("/", function (request, response) {
+  generateCals();
   response.sendFile(__dirname + "/views/index.html");
 });
 
 app.get("/cron", (request, response) => {
-  generateTeamCals();
-  generateMLSCal();
+  generateCals();
   response.sendStatus(200);
 });
 
@@ -27,14 +27,6 @@ clubsData.forEach(club => {
     response.sendFile(webcalurl);
     response.status(200);
   });
-});
-
-app.get(`/MLS`, function (request, response) {
-  const url = __dirname + `/public/MLS.ics`;
-  const webcalurl = url.replace('webcal://', 'http://');
-  response.set('Content-Type', 'text/calendar');
-  response.sendFile(webcalurl);
-  response.status(200);
 });
 
 // listen for requests :)

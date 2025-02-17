@@ -1,10 +1,16 @@
 [
   {
-    "club": "Atlanta",
-    "abbreviation": "ATL",
-    "fullname": "Atlanta United FC",
-    "shortname": "Atlanta United"
+    "club": "Major League Soccer",
+    "abbreviation": "MLS",
+    "fullname": "Major League Soccer",
+    "shortname": "MLS"
   },
+  {
+  "club": "Atlanta",
+  "abbreviation": "ATL",
+  "fullname": "Atlanta United FC",
+  "shortname": "Atlanta United"
+},
   {
     "club": "Austin",
     "abbreviation": "ATX",
@@ -142,6 +148,12 @@
     "abbreviation": "RSL",
     "fullname": "Real Salt Lake",
     "shortname": "Real Salt Lake"
+  },
+  {
+    "club": "San Diego",
+    "abbreviation": "SD",
+    "fullname": "San Diego FC",
+    "shortname": "San Diego FC"
   },
   {
     "club": "San Jose",
